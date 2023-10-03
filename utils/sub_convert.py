@@ -643,7 +643,7 @@ class sub_convert():
                             'name': 'Vmess Node', 'server': '0.0.0.0', 'port': 0, 'uuid': '', 'alterId': 0,
                             'cipher': 'auto', 'network': 'ws',
                             'ws-opts': {'path': '', 'headers': {'Host': ''}},
-                            'tls': '', 'servername': ''
+                            'tls': '', 'sni':''
                         }
                         #
                         yaml_default_config.update(proxy)
@@ -652,13 +652,13 @@ class sub_convert():
                         vmess_value = {
                             'v': 2, 'ps': proxy_config['name'], 'add': proxy_config['server'],
                             'port': proxy_config['port'], 'id': proxy_config['uuid'], 'aid': proxy_config['alterId'],
-                            'scy': proxy_config['cipher'], 'net': proxy_config['network'], 'type': None, 'servername': proxy_config['servername']
+                            'scy': proxy_config['cipher'], 'net': proxy_config['network'], 'type': None, 'sni': proxy_config['sni']
                         }
 
                         if 'tls' in proxy:
                             if proxy['tls'] == 'true' or proxy['tls'] == True:
                                 vmess_value['tls'] = 'tls'
-                                vmess_value['servername'] = proxy_config['ws-opts']['headers']['Host']
+                                vmess_value['sni'] = proxy_config['ws-opts']['headers']['Host']
                             # else:
                             #     vmess_value['tls'] = ''
 
