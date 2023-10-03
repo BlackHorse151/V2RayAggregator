@@ -265,9 +265,10 @@ class sub_convert():
                             if proxy_compared['type'] != proxies_list[begin_2]['type']:
                                 check = False
 
-                        if check:
-                            proxies_list.pop(begin_2)
-                            length -= 1
+                        #if check:
+                        proxies_list.pop(begin_2)
+                        length -= 1
+                    
 
                     begin_2 += 1
                 begin += 1
