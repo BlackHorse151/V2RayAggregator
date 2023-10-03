@@ -153,8 +153,7 @@ class sub_merge():
 #         print("it was " + str(content_list.__len__()))
 #         content_list = list(set(content_list))
 #         print("now is " + str(content_list.__len__()))
-        content_list = list(filter(lambda x: x.startswith("ssr://") or x.startswith("ss://")
-                                   or x.startswith("trojan://") or x.startswith("vmess://"), content_list))
+        content_list = list(filter(lambda x: x.startswith("trojan://") or x.startswith("vmess://"), content_list))
 
         content_list = list(
             filter(lambda x: x.__contains__("订阅内容解析错误") == False, content_list))
