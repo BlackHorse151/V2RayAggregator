@@ -350,6 +350,7 @@ class sub_convert():
                 if server.replace('.', '').isdigit():
                     ip = server
                 else:
+                    #ip = server
                     try:
                         # https://cloud.tencent.com/developer/article/1569841
                         ip = socket.gethostbyname(server)
@@ -376,11 +377,11 @@ class sub_convert():
 
                 proxy_index = proxies_list.index(proxy)
                 if len(proxies_list) >= 999:
-                    proxy['name'] = f'{name_emoji}{country_code}-{ip}-{proxy_index:0>4d}'
+                    proxy['name'] = f'{name_emoji}{country_code}-{server}-{proxy_index:0>4d}'
                 elif len(proxies_list) <= 999 and len(proxies_list) > 99:
-                    proxy['name'] = f'{name_emoji}{country_code}-{ip}-{proxy_index:0>3d}'
+                    proxy['name'] = f'{name_emoji}{country_code}-{server}-{proxy_index:0>3d}'
                 elif len(proxies_list) <= 99:
-                    proxy['name'] = f'{name_emoji}{country_code}-{ip}-{proxy_index:0>2d}'
+                    proxy['name'] = f'{name_emoji}{country_code}-{server}-{proxy_index:0>2d}'
 
                 if proxy['server'] != '127.0.0.1':
                     proxy_str = str(proxy)
@@ -642,7 +643,7 @@ class sub_convert():
                             'name': 'Vmess Node', 'server': '0.0.0.0', 'port': 0, 'uuid': '', 'alterId': 0,
                             'cipher': 'auto', 'network': 'ws',
                             'ws-opts': {'path': '', 'headers': {'Host': ''}},
-                            'tls': '', 'sni': ''
+                            'tls': '', 'servername': ''
                         }
                         #
                         yaml_default_config.update(proxy)
@@ -651,12 +652,13 @@ class sub_convert():
                         vmess_value = {
                             'v': 2, 'ps': proxy_config['name'], 'add': proxy_config['server'],
                             'port': proxy_config['port'], 'id': proxy_config['uuid'], 'aid': proxy_config['alterId'],
-                            'scy': proxy_config['cipher'], 'net': proxy_config['network'], 'type': None, 'sni': proxy_config['sni']
+                            'scy': proxy_config['cipher'], 'net': proxy_config['network'], 'type': None, 'servername': proxy_config['servername']
                         }
 
                         if 'tls' in proxy:
                             if proxy['tls'] == 'true' or proxy['tls'] == True:
                                 vmess_value['tls'] = 'tls'
+                                vmess_value['servername'] = proxy_config['ws-opts']['headers']['Host']
                             # else:
                             #     vmess_value['tls'] = ''
 
