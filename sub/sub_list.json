@@ -110,7 +110,7 @@
     "site": "https://github.com/iwxf/free-v2ray",
     "url": "https://iwxf.netlify.app",
     "update_method": "auto",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 14,
@@ -311,7 +311,7 @@
     "site": "https://github.com/xiyaowong/freeFQ",
     "url": "https://raw.githubusercontent.com/xiyaowong/freeFQ/main/v2ray",
     "update_method": "auto",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 39,
@@ -403,7 +403,7 @@
     "site": "https://github.com/ew732e8d8h1hi/q832yqwdu21u",
     "url": "https://raw.githubusercontent.com/ew732e8d8h1hi/q832yqwdu21u/main/out.txt",
     "update_method": "auto",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 50,
@@ -436,7 +436,7 @@
     "site": "https://github.com/jikelonglie/meskell",
     "url": "http://0.0.0.0:3333/get-base64?content=https://raw.githubusercontent.com/jikelonglie/meskell/main/meskell",
     "update_method": "auto",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 54,
@@ -452,7 +452,7 @@
     "site": "https://bitbucket.org/huwo1/proxy_nodes/src/main",
     "url": "https://bitbucket.org/huwo1/proxy_nodes/raw/f31ca9ec67b84071515729ff45b011b6b09c10f2/proxy.md",
     "update_method": "auto",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 56,
@@ -468,7 +468,7 @@
     "site": "https://github.com/budamu/clashconfig",
     "url": "http://0.0.0.0:3333/get-base64?content=https://raw.githubusercontent.com/budamu/clashconfig/main/v2ray.txt|http://0.0.0.0:3333/get-base64?content=https://raw.githubusercontent.com/budamu/clashconfig/main/v2ray2.txt",
     "update_method": "auto",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 58,
@@ -476,7 +476,7 @@
     "site": "https://github.com/MOnday9907/v2ray",
     "url": "http://0.0.0.0:3333/get-base64?content=https://raw.githubusercontent.com/MOnday9907/v2ray/main/v2ray.txt",
     "update_method": "auto",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 59,
@@ -492,7 +492,7 @@
     "site": "https://github.com/Jia-Pingwa/free-v2ray-merge",
     "url": "http://0.0.0.0:3333/get-base64?content=https://raw.githubusercontent.com/Jia-Pingwa/free-v2ray-merge/main/output.txt",
     "update_method": "auto",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 61,
@@ -542,7 +542,7 @@
     "site": "https://github.com/learnhard-cn/free_proxy_ss",
     "url": "https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/config.yaml|https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/free|https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/v2ray/v2raysub|https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/ssr/ssrsub|https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/ss/sssub|https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/config.yaml|https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/providers/provider_free.yaml|https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/providers/provider_outwall.yaml|https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/providers/provider_netflix.yaml",
     "update_method": "auto",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 67,
