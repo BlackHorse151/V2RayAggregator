@@ -28,7 +28,7 @@ ipv6 = r'(([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0
 
 
 def add_valid(line):
-    if line.__contains__("vmess://")):
+    if line.__contains__("vmess://"):
         return line
     return ''
 
