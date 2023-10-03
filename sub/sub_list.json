@@ -5,7 +5,7 @@
     "site": "https://github.com/pojiezhiyuanjun/freev2",
     "url": "https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/1003.txt",
     "update_method": "change_date",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 1,
@@ -13,7 +13,7 @@
     "site": "https://github.com/Fukki-Z/nodefree",
     "url": "https://nodefree.org/dy/2023/10/20231003.yaml",
     "update_method": "change_date",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 2,
@@ -29,7 +29,7 @@
     "site": "https://github.com/FiFier/v2rayShare",
     "url": "https://v2rayshare.com/wp-content/uploads/2023/10/20231003.txt",
     "update_method": "change_date",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "site": "https://github.com/huanongkejizhijia/clashnode",
     "url": "https://clashnode.com/wp-content/uploads/2023/10/20231003.txt",
     "update_method": "change_date",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 5,
@@ -62,7 +62,7 @@
     "site": "https://github.com/colatiger/v2ray-nodes",
     "url": "https://bitbucket.org/huwo1/proxy_nodes/raw/b90856fe7cb9c666223f3ad41c87d0e60c711590/proxy.md|https://bitbucket.org/huwo1/proxy_nodes/raw/f31ca9ec67b84071515729ff45b011b6b09c10f2/clash.yaml",
     "update_method": "auto",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 8,
@@ -78,7 +78,7 @@
     "site": "https://github.com/ssrsub/ssr",
     "url": "https://raw.githubusercontent.com/ssrsub/ssr/master/V2Ray|https://raw.githubusercontent.com/ssrsub/ssr/master/ss-sub|https://raw.githubusercontent.com/ssrsub/ssr/master/ssrsub|https://raw.githubusercontent.com/ssrsub/ssr/master/trojan|https://raw.githubusercontent.com/ssrsub/ssr/master/Clash.yml",
     "update_method": "auto",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 10,
@@ -102,7 +102,7 @@
     "site": "https://github.com/mahdibland/ShadowsocksAggregator",
     "url": "https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity",
     "update_method": "auto",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 13,
@@ -118,7 +118,7 @@
     "site": "https://github.com/ldir92664/Vmess-Actions",
     "url": "https://raw.githubusercontent.com/DoveBoy/Vmess-Actions/main/subscribe/clash.yaml",
     "update_method": "auto",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 15,
@@ -126,7 +126,7 @@
     "site": "https://github.com/gooooooooooooogle/Clash-Config",
     "url": "https://raw.githubusercontent.com/gooooooooooooogle/Clash-Config/main/Clash.yaml",
     "update_method": "auto",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 16,
@@ -150,7 +150,7 @@
     "site": "https://github.com/wrfree/free",
     "url": "https://raw.githubusercontent.com/wrfree/free/main/v2",
     "update_method": "auto",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 19,
@@ -222,7 +222,7 @@
     "site": "https://github.com/misersun/config003",
     "url": "https://raw.githubusercontent.com/misersun/config002/main/config_all.yaml|https://raw.githubusercontent.com/misersun/config003/main/config_all.yaml",
     "update_method": "auto",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 28,
@@ -230,7 +230,7 @@
     "site": "https://github.com/vveg26/SubAutoConv",
     "url": "https://raw.githubusercontent.com/vveg26/SubAutoConv/main/sub/clash/url1.yaml|https://raw.githubusercontent.com/vveg26/SubAutoConv/main/sub/clash/url2.yaml|https://raw.githubusercontent.com/vveg26/SubAutoConv/main/sub/clash/url3.yaml|https://raw.githubusercontent.com/vveg26/SubAutoConv/main/sub/clash/url4.yaml",
     "update_method": "auto",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 29,
