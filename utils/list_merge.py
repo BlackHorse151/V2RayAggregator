@@ -28,8 +28,7 @@ ipv6 = r'(([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0
 
 
 def add_valid(line):
-    if (line.__contains__("ssr://") or line.__contains__("ss://")
-            or line.__contains__("trojan://") or line.__contains__("vmess://")):
+    if line.__contains__("vmess://")):
         return line
     return ''
 
@@ -153,7 +152,7 @@ class sub_merge():
 #         print("it was " + str(content_list.__len__()))
 #         content_list = list(set(content_list))
 #         print("now is " + str(content_list.__len__()))
-        content_list = list(filter(lambda x: x.startswith("trojan://") or x.startswith("vmess://"), content_list))
+        content_list = list(filter(lambda x: x.startswith("vmess://"), content_list))
 
         content_list = list(
             filter(lambda x: x.__contains__("订阅内容解析错误") == False, content_list))
