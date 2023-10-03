@@ -615,7 +615,7 @@
     "site": "https://github.com/hermanb001/ProxyTest",
     "url": "https://raw.githubusercontent.com/hermanb001/ProxyTest/main/subscribe/us-proxypool|https://raw.githubusercontent.com/hermanb001/ProxyTest/main/subscribe/sspool|https://raw.githubusercontent.com/hermanb001/ProxyTest/main/subscribe/origamiboy|https://raw.githubusercontent.com/hermanb001/ProxyTest/main/subscribe/lonxin|https://raw.githubusercontent.com/hermanb001/ProxyTest/main/subscribe/jingfu|https://raw.githubusercontent.com/hermanb001/ProxyTest/main/subscribe/hellopool|https://raw.githubusercontent.com/hermanb001/ProxyTest/main/subscribe/eu-proxypool|https://raw.githubusercontent.com/hermanb001/ProxyTest/main/subscribe/guobang|https://raw.githubusercontent.com/hermanb001/ProxyTest/main/subscribe/free886|https://raw.githubusercontent.com/hermanb001/ProxyTest/main/subscribe/cloudkingzst|https://raw.githubusercontent.com/hermanb001/ProxyTest/main/subscribe/3wking",
     "update_method": "auto",
-    "enabled": true,
+    "enabled": false,
     "description": "updated last year"
   },
   {
@@ -640,6 +640,6 @@
     "site": "https://github.com/LonUp/NodeList",
     "url": "https://raw.githubusercontent.com/LonUp/NodeList/main/Clash/Node/Latest.yaml",
     "update_method": "auto",
-    "enabled": true
+    "enabled": false
   }
 ]
