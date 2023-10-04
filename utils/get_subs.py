@@ -35,7 +35,7 @@ class subs:
                 for each_url in url_container["url"]:
                     print("gather server from " + each_url)
                     content = subs_function.convert_sub(
-                        each_url, 'mixed', "http://0.0.0.0:25500")
+                        each_url, 'mixed', "http://0.0.0.0:25500",extra_options="&udp=true")
                     print("added content: %s" %
                           str(content.split('\n').__len__()))
                     if content == 'Err: No nodes found' or content == 'Err: failed to parse sub':
@@ -174,9 +174,9 @@ class subs:
                     # todo change to 0.0.0.0
                     # getting one source in to format
                     content = subs_function.convert_sub(
-                        each_url, 'mixed', "http://0.0.0.0:25500", False)
+                        each_url, 'mixed', "http://0.0.0.0:25500", False, extra_options="&udp=true")
                     content_clash = subs_function.convert_sub(
-                        each_url, 'clash', "http://0.0.0.0:25500", False)
+                        each_url, 'clash', "http://0.0.0.0:25500", False, extra_options="&udp=true")
 
                     if content == 'Err: No nodes found' or content == 'Err: failed to parse sub' or content_clash == 'Err: No nodes found' or content_clash == 'Err: failed to parse sub':
                         print("host convertor failed. just continue & ignore...")
@@ -424,7 +424,7 @@ class subs:
                     # todo change to 0.0.0.0
                     # getting one source in to format
                     content_clash = subs_function.convert_sub(
-                        each_url, 'clash', "http://0.0.0.0:25500", False, extra_options="&udp=false")
+                        each_url, 'clash', "http://0.0.0.0:25500", False, extra_options="&udp=true")
 
                     if content_clash == 'Err: No nodes found' or content_clash == 'Err: failed to parse sub':
                         if content_clash == 'Err: No nodes found':

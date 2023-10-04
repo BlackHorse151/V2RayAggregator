@@ -792,7 +792,7 @@ class sub_convert():
         url = urllib.parse.quote(url, safe='')
         if output_type == 'clash':
             converted_url = sever_host+'/sub?target=clash&url=' + \
-                url+'&insert=false&emoji=true&list=true'
+                url+'&insert=false&emoji=true&list=true&udp=true'
             try:
                 resp = requests.get(converted_url)
             except Exception as err:
@@ -805,7 +805,7 @@ class sub_convert():
                     resp.text), dup_rm_enabled=False, format_name_enabled=True)
         elif output_type == 'base64':
             converted_url = sever_host+'/sub?target=mixed&url=' + \
-                url+'&insert=false&emoji=true&list=true'
+                url+'&insert=false&emoji=true&list=true&udp=true'
             try:
                 resp = requests.get(converted_url)
             except Exception as err:
@@ -817,7 +817,7 @@ class sub_convert():
                 sub_content = sub_convert.base64_encode(resp.text)
         elif output_type == 'url':
             converted_url = sever_host+'/sub?target=mixed&url=' + \
-                url+'&insert=false&emoji=true&list=true'
+                url+'&insert=false&emoji=true&list=true&udp=true'
             try:
                 resp = requests.get(converted_url)
             except Exception as err:
