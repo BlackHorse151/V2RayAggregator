@@ -521,7 +521,7 @@ high-speed node quantity: `200`
 - you can import these 200 tested nodes using their subscription link into different clients. refer to `Instructions & Usage` section
 
 ### all nodes
-merge nodes w/o dup: `4209`
+merge nodes w/o dup: `4192`
 - [Node link Mixed (V2ray)](https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/sub_merge.txt)
 - [Node link Yaml (Clash)](https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_yaml.yml)
 
@@ -544,25 +544,25 @@ merge nodes w/o dup: `4209`
 
 
 ### node sources
-- [mianfeifq/share](https://github.com/mianfeifq/share), number of nodes: `84`
+- [mianfeifq/share](https://github.com/mianfeifq/share), number of nodes: `72`
 - [Jsnzkpg/Jsnzkpg](https://github.com/Jsnzkpg/Jsnzkpg), number of nodes: `11`
 - [ermaozi/get_subscribe](https://github.com/ermaozi/get_subscribe), number of nodes: `21`
-- [anaer/Sub](https://github.com/anaer/Sub), number of nodes: `546`
+- [anaer/Sub](https://github.com/anaer/Sub), number of nodes: `548`
 - [aiboboxx/v2rayfree](https://github.com/aiboboxx/v2rayfree), number of nodes: `2`
-- [Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers), number of nodes: `6`
+- [Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers), number of nodes: `10`
 - [Rokate/Proxy-Sub](https://github.com/Rokate/Proxy-Sub), number of nodes: `60`
-- [clash.221207.xyz/pubclashyaml](https://clash.221207.xyz/pubclashyaml), number of nodes: `872`
+- [clash.221207.xyz/pubclashyaml](https://clash.221207.xyz/pubclashyaml), number of nodes: `954`
 - [tbbatbb/Proxy](https://github.com/tbbatbb/Proxy), number of nodes: `502`
 - [mfuu/v2ray](https://github.com/mfuu/v2ray), number of nodes: `242`
-- [freefq/free](https://github.com/freefq/free), number of nodes: `21`
+- [freefq/free](https://github.com/freefq/free), number of nodes: `27`
 - [yaney01/Yaney01](https://github.com/yaney01/Yaney01), number of nodes: `654`
 - [YasserDivaR/pr0xy](https://github.com/YasserDivaR/pr0xy), number of nodes: `957`
-- [peasoft/NoMoreWalls](https://github.com/peasoft/NoMoreWalls), number of nodes: `269`
+- [peasoft/NoMoreWalls](https://github.com/peasoft/NoMoreWalls), number of nodes: `248`
 - [mahdibland/get_v2](https://github.com/mahdibland/get_v2), number of nodes: `2341`
 - [vveg26/get_proxy](https://github.com/vveg26/get_proxy), number of nodes: `629`
-- [free.jingfu.cf/clash](https://free.jingfu.cf/clash), number of nodes: `81`
+- [free.jingfu.cf/clash](https://free.jingfu.cf/clash), number of nodes: `78`
 - [AzadNetCH/Clash](https://github.com/AzadNetCH/Clash), number of nodes: `2688`
-- [proxy.yugogo.xyz/clash](https://proxy.yugogo.xyz/clash), number of nodes: `257`
+- [proxy.yugogo.xyz/clash](https://proxy.yugogo.xyz/clash), number of nodes: `281`
 - [freebaipiao/freebaipiao](https://github.com/freebaipiao/freebaipiao), number of nodes: `6`
 - [lisylva-lee/v2dyku](https://github.com/lisylva-lee/v2dyku), number of nodes: `32`
 - [adminaliang/v2ray](https://github.com/adminaliang/v2ray), number of nodes: `16`
