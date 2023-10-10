@@ -649,5 +649,13 @@
     "url": "https://raw.githubusercontent.com/adiwzx/freenode/main/adispeed.txt",
     "update_method": "auto",
     "enabled": true
+  },
+  {
+    "id": 79,
+    "remarks": "online",
+    "site": "https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3QvcyFBcm1pZzBTamlSVWNnakV5cF9Sc2pRVDRBZVN1P2U9QWFLeEow",
+    "url": "https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3QvcyFBcm1pZzBTamlSVWNnakV5cF9Sc2pRVDRBZVN1P2U9QWFLeEow",
+    "update_method": "auto",
+    "enabled" true
   }
 ]
