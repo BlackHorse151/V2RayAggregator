@@ -641,5 +641,13 @@
     "url": "https://raw.githubusercontent.com/LonUp/NodeList/main/Clash/Node/Latest.yaml",
     "update_method": "auto",
     "enabled": false
+  },
+  {
+    "id":78,
+    "remarks": "adi",
+    "site": "https://raw.githubusercontent.com/adiwzx/freenode/main/adispeed.txt",
+    "url": "https://raw.githubusercontent.com/adiwzx/freenode/main/adispeed.txt",
+    "update_method": "auto",
+    "enabled": true
   }
 ]
