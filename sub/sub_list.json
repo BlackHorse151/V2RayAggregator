@@ -657,5 +657,13 @@
     "url": "https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3QvcyFBcm1pZzBTamlSVWNnakV5cF9Sc2pRVDRBZVN1P2U9QWFLeEow",
     "update_method": "auto",
     "enabled" true
+  },
+  {
+    "id": 80,
+    "remarks": "bapio",
+    "site": "https://baipiao1.curly-train.pages.dev/sub/d342d11e-d424-4583-b36e-524ab1f0afa4",
+    "url": "https://baipiao1.curly-train.pages.dev/sub/d342d11e-d424-4583-b36e-524ab1f0afa4",
+    "update_method": "auto",
+    "enabled" true
   }
 ]
